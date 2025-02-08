@@ -23,7 +23,7 @@ def menu():
     print("6.Exit")
     while 1:
         try:
-            choix=int(input("Enter votre choix : "))
+            choix=int(input("Entez votre choix : "))
             if 1 <= choix <= 6 :
                 return choix
             else:
